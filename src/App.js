@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 
 class App extends Component {
   render() {
@@ -10,5 +9,10 @@ class App extends Component {
     )
   }
 }
+// class App extends Component {
+//   render() {
+//     return React.createElement('div', null, 'HELLO WORLD!!!')
+//   }
+// }
 
 export default App;
